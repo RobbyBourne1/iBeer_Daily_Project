@@ -80,6 +80,7 @@ img{
         TODO:
         - Use the script font: 'Dancing Script' fot this text
     */
+    font-family: 'Dancing Script', cursive;
 }
 #main-navigation{
     background: #444;
