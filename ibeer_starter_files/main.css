@@ -46,6 +46,8 @@ img{
         TODO
         - Flexbox property here
     */
+    display: flex;
+    flex-direction: column;
 }
 #site-header div{
     text-align: center;
@@ -86,6 +88,8 @@ img{
         TODO:
         - Use Flexbox to arrange the navigation links
     */
+    display: flex;
+    flex-direction: row;
 }
 #main-navigation a{
     display: block;
