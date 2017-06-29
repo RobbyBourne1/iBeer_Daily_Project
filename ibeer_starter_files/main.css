@@ -37,8 +37,8 @@ img{
         the major page sections
     */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-flow: row wrap;
+    align-items: flex-start;
     justify-content: center;
 }
 #site-header{
@@ -103,6 +103,7 @@ img{
         TODO:
         - Flexbox - Create general spacing between nav links
     */
+
 }
 #main-navigation #logo{
     margin-right: 400px;
@@ -112,6 +113,7 @@ img{
         - Flexbox - The logo needs to take up more space
         that the other links
     */
+
 }
 main{
     padding: 20px;
@@ -122,6 +124,11 @@ main{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    position: relative;
+    top: -90px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
 }
 aside{
     padding: 20px;
@@ -132,6 +139,13 @@ aside{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    position: relative;
+    top: -90px;
+    width: 200px;
+    display: flex;
+    flex-flow: column wrap;
+
+
 }
 aside h3{
     text-align: center;
