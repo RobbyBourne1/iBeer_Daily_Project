@@ -103,7 +103,7 @@ img{
         TODO:
         - Flexbox - Create general spacing between nav links
     */
-
+    /* No need to add Flex */
 }
 #main-navigation #logo{
     margin-right: 400px;
@@ -113,7 +113,7 @@ img{
         - Flexbox - The logo needs to take up more space
         that the other links
     */
-
+    /* No need to add flex */
 }
 main{
     padding: 20px;
